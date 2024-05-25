@@ -1,0 +1,25 @@
+#Tuples
+'''
+a= (2,3,4,4,7,8,3,5,3)
+#a[0]=1, tuples are not iterable
+print(a)
+
+print(type(a),a)
+print(len(a))
+print(a[0])
+print(a[-1])
+b= a[1:4]
+print(b)
+'''
+#operations in tuple
+'''
+tuple= (3,5,3,6,3,8,9)
+res= tuple.index(5)
+print("Count of 5 in tuple is:", res)
+
+c= tuple.index(8)
+print("Count of 8 in the tuple is",c)
+
+tuple1= (0,1,2,3,2,3,2,3,2,3)
+res = tuple1.index(3,4,8)
+print("Count of 3 between number 4 and 8 is",res)

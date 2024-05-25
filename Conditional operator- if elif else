@@ -1,0 +1,54 @@
+#Conditional operator
+'''
+a=int(input("Enter your age:"))
+print("Your age is:",a)
+print(a>18)
+print(a<18)
+print (a>=18)
+print (a>=18)
+print (a==18)
+print (a!=18)
+'''
+
+#If else conditionals
+'''
+a= int(input("enter your age:"))
+print("Your age is:",a)
+if (70>=a>=18):
+    print("You can drive")
+    print("Yes")
+
+else:
+  print("You cannot drive")
+  print("No")
+'''
+
+#If elif else conditionals
+'''
+num=int(input("Enter the value of num:"))
+if (num<0):
+  print("Number is negative")
+elif (num==0):
+  print("Number is zero")
+elif (num==999):
+  print("Number is special")
+'''
+
+#Time pass game (made for my friend sitting beside me in library)
+'''
+print("which one of these would you choose?")
+  
+a = "1:short haircut"
+b = "2:girl with bottle" 
+c = "3:Rashmi"  
+d = "4:Mrunal"
+print(a)
+print(b)
+print(c)
+print(d)
+
+ans= int(input("so which one of these would you choose:"))
+if (ans==1, ans==2, ans==3, ans==4):
+   print("oops!!! you are too fat", ans, "rejects you")
+
+'''

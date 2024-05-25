@@ -1,0 +1,25 @@
+#How import works
+'''
+import math
+a= math.sqrt(9)*math.pi
+print(a)  
+'''
+
+ #Or by using keyword
+'''
+from math import sqrt,pi
+c= sqrt(9)*pi
+print (c)
+
+from math import pi, sqrt as s
+c= s(9)*pi
+print(c)
+
+import math as m
+b= m.sqrt(9)*m.pi
+print(b)
+
+
+import math
+print(dir(math))
+'''

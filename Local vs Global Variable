@@ -1,0 +1,20 @@
+#Local v/s Global variable 
+'''
+x=10
+def function():
+  y=5
+  print(y)
+function()
+print(x)
+print(y)     #error since y is local variable, while x is global 
+'''
+'''
+x=10
+def function():
+  global y
+  y=5
+  print(y)
+function()
+print(x)
+print(y)
+'''

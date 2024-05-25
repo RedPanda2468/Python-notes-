@@ -1,0 +1,56 @@
+#Functions in python
+'''
+a=9
+b=8
+gmean1= (a*b)/(a+b)
+print(gmean1)
+
+c=6
+d=7
+gmean2= (c*d)/(c+d)
+print(gmean2) 
+'''
+#OR Using function
+'''
+
+def calculategmean(a,b):
+  mean = (a*b)/(a+b)
+  print(mean)
+a= 9
+b= 8
+calculategmean(a,b)
+
+c=6
+d=7
+calculategmean(c,d)
+'''
+'''
+a=6
+b=8
+
+if (a>b):
+  print("a is greater than b")
+else:
+  print("b is greater than a")
+
+#OR
+def compare(a,b):
+  if (a>b):
+    print("First number is greater")
+  else:
+    print("second number is greater")
+
+a=9
+b=7
+compare(a,b)
+
+c=6
+d=8
+compare(c,d)
+
+#Function arguments 
+def average(a,b):
+  print("The average is", a+b/2)
+
+average(5,6)
+'''

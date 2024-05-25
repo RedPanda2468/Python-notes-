@@ -1,0 +1,40 @@
+#Indentation under condition
+'''
+num = int(input("Enter any number:"))
+if (num<0):
+   print("Number is negative")
+elif (num>0):
+  if (num<=10):
+   print("Number is between 1-10")
+  elif (num>10 and num<=20):
+         print("number is between 11-20")
+  else:
+   print("Number is greater than 20")
+else:
+   print("Number is zero")
+'''
+
+#time module
+'''
+import time
+timestamp = time.strftime('%H:%M:%S')
+print(timestamp)
+timestamp = time.strftime ('%H')
+print(timestamp)
+timestamp= time.strftime('%M')
+print(timestamp)
+timestamp= time.strftime('%S')
+print(timestamp).
+'''
+#exercise Good morning sir
+'''
+import time
+timestamp=time.strftime('%H:%M:%S')
+print(timestamp)
+if (timestamp<'12:00:00'):
+  print("Good morning sir")
+elif ('18:00:00'>timestamp>='13:00:00'):
+  print("Good evening sir")
+else:
+  print("Good night sir")
+ '''

@@ -1,0 +1,59 @@
+#File IO
+#made myfile.txt containing 'you are awesome'
+'''
+f= open('myfile.txt','r') #Reading
+text=f.read()
+print(text)
+f.close()
+'''
+'''
+f=open('myfile02.txt','w') #Writing
+text= f.write("Hello world!")
+f.close()
+'''
+'''
+f= open('myfile02.txt', 'a')
+text= f.write("Hii")
+f.close()
+'''
+
+#Read,readline(), & Other methods
+       #Made myfile3.txt written
+
+             #Python course is great
+             #and this tutorial is also awesome
+             #this is also good
+
+
+'''
+f= open('myfile3.txt','r')
+while True:
+  text=f.readline()
+  if not text:
+    break
+  print(text)
+  '''
+
+'''
+f=open('myfile4.txt','r')
+i=0
+while True:
+  i=i+1
+  line=f.readline()
+  if not line:
+    break
+  m1=line.split(",") [0]
+  m2=line.split(",") [1]
+  m3=line.split(",") [2]
+  print(f"marks of student{i} in maths is: {m1}")
+  print(f"marks of student {i} in english is: {m2}")
+  print(f"marks of student {i} in SST is: {m3}")
+
+print(line)
+
+
+f= open('myfileX.txt','w')
+lines= ('line1\n', 'line2\n','line3\n')
+f.writelines(lines)
+f.close()
+'''

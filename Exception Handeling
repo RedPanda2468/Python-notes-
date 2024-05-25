@@ -1,0 +1,25 @@
+#Exception handling
+'''
+a= int(input("enter the number:"))
+print(f"Multiplication table of {int(a)} is:")
+try:
+  for i in range(1,11):
+    print(f"{int(a)} X {i}= {int(a)*i}")
+except:
+  print("Invalid input")
+
+print("some imp.lines of code")
+print("end of program")
+
+
+
+try:
+  num=int(input("Enter an integer:"))
+  a= range(10000000)
+  print(a[num])
+except ValueError:
+  print("Number entered is not integer")
+except IndexError:
+  print("index error")
+
+  '''

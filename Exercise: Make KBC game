@@ -1,0 +1,77 @@
+#Exercise Make KBC game
+'''
+
+a= ["1. India is a federal union comprising twenty-eight states and how many union territories?"]
+a1= "1).6"
+a2="2).7"
+a3 = "3).8"
+a4 = "4).9"
+print(a)
+print(a1)
+print(a2)
+print(a3)
+print(a4)
+ans= int(input("enter your answer or press 0 to quit:"))
+if (ans==0):
+  print("your take home money is 0")
+  break
+if (ans==3):
+  print("Answer is correct\nYou won 5000/- rupees")
+  b= ["2. Which of the following is the capital of Arunachal Pradesh?"]
+  b1="1)itnagar"
+  b2= "2)Dispur"
+  b3= "3)imphal"
+  b4= "4) panaji"
+  print(b)
+  print(b1)
+  print(b2)
+  print(b3)
+  print(b4)
+  ans=int(input("Enter the correct answer or press 0 to quit:"))
+if (ans==0):
+  print("Your take home money is 0")
+  break
+  if (ans==1):
+    print("answer is correct\nyou won 10000/- rupees")
+    c="[3) Which of the following is the capital of Arunachal Pradesh?"]
+    c1= "Odia and Telugu"
+    c2= "Telugu and Urdu"
+    c3= "Telugu and Kannada"
+    c4="All of the above languages"
+    print(c)
+    print(c1)
+    print(c2)
+    print(c3)
+    print(c4)
+    ans=int(input("enter the correct answer or press 0 to quit:"))
+    if (ans==0):
+      print("your take home money is zero")
+      break
+    if (ans==4):
+      print("Answer is correct\nand you won 100000/-")
+      d= ["Q4. Which river among the following starts its Journey and ends its journey in India itself?"]
+      d1="1)Indus"
+      d2="2)Brahmaputra"
+      d3="3)Chambal"
+      d4="4)Kosi"
+      print(d)
+      print(d1)
+      print(d2)
+      print(d3)
+      print(d4)
+      ans= int(input("enter the correct answer or press 0 to quit:"))
+    if (ans==0):
+      print("your take home money is zero")
+          break
+      if (ans==3):
+         print("Answer is correct\nyou won 500000/-")
+      else:
+         print("incorrect answer\nyou won 100000/-")
+    else:
+      print("incorrect answer\nyou won 10000/-")
+  else:
+    print("incorrect answer\nyou won 1000")
+else:
+  print("Incorrect answer\nyou lost")
+
+'''

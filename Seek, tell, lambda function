@@ -1,0 +1,27 @@
+#Seek, tell and other functions
+'''
+with open('myfile.txt','r') as f:
+  print(type(f))
+
+  f.seek(10)
+  data= f.read()
+  print(data)
+  '''
+
+#Lambda function
+'''
+def double(x):
+  return(x*2)
+
+print(double(5))
+       #OR
+
+
+avg= lambda x,y,z:(x+y+z)/3
+double= lambda x: x*2
+cube= lambda x: x*x*x
+
+print(double(5))
+print(cube(5))
+print(avg(3,5,10))
+'''

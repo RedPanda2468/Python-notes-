@@ -1,0 +1,45 @@
+#indexing
+'''
+name= "Apple"
+print (name[0])
+print(name[1])
+print (name[2])
+print(name[4])
+'''
+#Looping
+'''
+name= "apple"
+for character in name:
+  print(character)
+  
+p= "i am a good boy"
+for character in p:
+  print(character)
+'''
+'''
+names= "Rohan,Shubham"
+print(names[0:8])
+
+print(len(names))
+fruit= "mango"
+print(fruit[0:-3])
+'''
+
+#String methods
+'''
+a="apple"
+print(a.upper())
+print(a.lower())
+b= "thanK yOu foR visiting this wEbsIte"
+print(b.capitalize())
+
+d= "apple"
+print(d.replace("apple","mango"))
+print(d)
+
+print(b.replace("visiting","No"))
+print(b.replace("thanK yOu foR visiting this wEbsIte", "Thank you for visiting this website"))
+print(b.find("foR"))
+print(b. find("ishh"))
+print(b.find("is"))
+'''

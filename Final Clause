@@ -1,0 +1,49 @@
+#Finally clause
+'''
+try:
+  l= [1,2,3,4,5,6,7,8]
+  a= int(input("Enter the index:"))
+  print(l[a])
+except:
+  print("Some error occured")
+finally:
+  print("I am always executed")
+'''
+
+# There's difference in finally, when we use def function.
+
+'''
+def func1():
+  try:
+    l = [1, 5, 6, 7]
+    i = int(input('enter the numberL:'))
+    print(l[i])
+    return 1
+
+  except:
+    print("Some error occured")
+    return 0
+
+  print("I am always executed")
+
+x= func1()
+print(x)
+'''
+#OR
+'''
+def func2():
+  try:
+    l=[1,5,6,7]
+    i=int(input("Enter the number:"))
+    print(l[i])
+    return 1
+
+  except:
+    print("Some error occured")
+    return 0
+  finally:
+    print("I am always executed")
+
+a= func2()
+print(a)
+'''

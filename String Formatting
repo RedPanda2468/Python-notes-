@@ -1,0 +1,15 @@
+#String formatting
+'''
+letter= "Hey my name is {}, and i'm from {}"
+name= "Yash"
+country= "India"
+print (letter.format(name,country))
+#Using curly braces
+print(f"Hey my name is {name}, and i'm from {country}")
+    #To retain curly brackets use double sign
+print(f"hey my name is {{name}}, and i'm from {{country}}")
+
+price= 49.0999
+txt=f"for only {price:.2f} dollars!"
+print(txt)
+'''

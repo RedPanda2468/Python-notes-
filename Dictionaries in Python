@@ -1,0 +1,38 @@
+#Dictionaries
+'''
+dic= {
+  12: "apple",
+  13: "Mango",
+  14: "cities",
+  344: "tokyo",
+}
+print(dic[14])
+print(dic[344])
+
+
+
+info= {'name': 'karan', 'age':22, 'eligible':True}
+print(info['name']) 
+print(info['age'])
+print(info['eligible']) 
+
+for key in info.keys():
+  print(info[key])
+
+for key in info.keys():
+  print(f"The value corresponding to the key {key} is {info[key]}")
+
+
+ep1= {122:45, 123:89,567:69,670:69}
+ep2= {222:67, 566:90}
+ep1.update(ep2)
+print(ep1)
+
+
+
+ep1.pop(122)
+print(ep1)
+
+ep1.clear()
+print(ep1)
+'''

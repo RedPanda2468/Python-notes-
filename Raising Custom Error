@@ -1,0 +1,23 @@
+#Raising custom error
+'''
+a= int(input("enter any number between 5 and 9:"))
+
+if (a<5 or a>9):
+  raise ValueError("Number should be between 5 and 9")
+else:
+  print("You are eligible for membership")
+
+'''
+
+#Exercise
+'''
+a= input("enter any number:")
+if (a=="quit"):
+  print("you are out!")
+else:
+  try:
+    number= int(a)
+    print(a)
+  except:
+    raise ValueError("Input value is not integer")
+    '''

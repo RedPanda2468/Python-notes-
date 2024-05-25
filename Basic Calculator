@@ -1,0 +1,21 @@
+#Exercise 1 creating basic calculator
+'''
+a= int(input("Enter the first value:"))
+b= int(input("Enter the second value:"))
+print('The value of', a ,"+",b, "is:",a+b)
+print("The value of",a,"-",b, "is:", a-b)
+print ("The value of", a,"*",b, "is:",a*b)
+print ("The value of",a,"/",b, "is :",a/b)
+print ("The value of", a,"//",b, "is:", a//b)
+print ("The value of",a,"%",b, "is:", a%b)
+'''
+
+# a= 3
+# b= 6
+# print(a+b)
+# print(int(a)+int(b))
+# a= input("Enter your name:")
+# print("Hi",a,"welcome to the website")
+# x= input("Enter your first number:")
+# y= input("Enter your second number:")
+# print(int(x)+ int(y))

@@ -1,0 +1,31 @@
+ '''
+
+
+print("Hello world")
+print (5)
+print("5")
+print (17 * 15)
+print ("I am a good boy\nand i eat apple everyday")
+#Hey i am a good boy
+"""
+# used triple quoting twice to run latest code 
+
+hey i am a good boy
+and i eat apple everyday
+ 
+
+"""
+
+
+
+print("Hey i am a \"good boy\"\nand this viewer is also a good boy")
+#OR
+# print ('Hey i am "Good boy"\nand this viewer is also a good boy')
+print("Hey",6,7,sep="and")
+a= "Hey i eat apple everyday"
+print(a)
+'''
+'''
+apple = 9
+#b = "apple"
+#print(b)

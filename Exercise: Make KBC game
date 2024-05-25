@@ -75,3 +75,13 @@ else:
   print("Incorrect answer\nyou lost")
 
 '''
+
+#In KBC to get options in 2 rows
+'''
+
+print("Which of the following is the capital of arunchal pradesh?")
+question= ("itanagar", "dispur","imphal","panaji")
+print(f"a.{question[0]}             b.{question[1]}")
+print(f"c.{question[2]}               d.{question[3]}")
+
+'''
